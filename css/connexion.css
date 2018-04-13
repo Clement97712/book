@@ -1,0 +1,120 @@
+/*html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-family: "Indie Flower", cursive;
+  font-size: 18px;
+}
+
+.formulaire {
+  border: 1px solid #999999;
+  height: auto;
+  width: 320px;
+  /*padding: 10px;*/ /*
+}
+
+fieldset {
+  padding: 10px;
+}
+
+.form-control {
+  height: 40px;
+}
+
+.action {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.sentence {
+  font-size: 14px;
+}
+.sentence a {
+  text-decoration: none;
+}
+.sentence a:hover {
+  font-style: italic;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+}
+
+@media (max-width: 500px) {
+  .formulaire {
+    border: 1px solid #999999;
+    /* width: 250px;*/ /*
+    margin: 0px 15px;
+  }
+
+  .form-control {
+    /*width: 200px;*/ /*
+  }
+
+  .action {
+    width: 200px;
+  }
+}
+
+*/
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-family: "Armata", sans-serif;
+  font-size: 18px;
+}
+
+.formulaire {
+  border: 1px solid #999999;
+  height: auto;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+fieldset {
+  border: 0px solid;
+}
+
+.form-control {
+  height: 40px;
+  width: 300px;
+}
+
+.action {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.sentence {
+  font-size: 14px;
+}
+.sentence a {
+  text-decoration: none;
+}
+.sentence a:hover {
+  font-style: italic;
+}
+
+.btn {
+  height: 40px;
+  width: 120px;
+}

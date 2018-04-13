@@ -1,0 +1,124 @@
+/*.contenus {
+  border: 1px solid;
+  height: 700px;
+  width: auto;
+  padding: 38px 0px;
+  overflow-y: auto;
+}
+
+.boites {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  width: auto;
+}
+
+.taille,
+.tailles {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  /*  border:1px solid;*/ /*
+}
+
+.size,
+.sizes {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.tailles,
+.sizes {
+  width: 500px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.taille,
+.size {
+  width: 220px;
+}
+*/
+
+* {
+  font-family: "Armata", sans-serif;
+  font-size: 18px;
+}
+.contenus {
+  border: 1px solid;
+  height: 700px;
+  width: auto;
+  padding: 38px 0px;
+  overflow-y: auto;
+}
+
+.boites,
+.boite {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+  width: auto;
+}
+
+.taille,
+.tailles {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  /*  border:1px solid;*/
+}
+
+.size,
+.sizes {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.tailles,
+.sizes {
+  width: 500px;
+  overflow-y: auto;
+  text-align: left;
+}
+.tailles {
+  height: 200pxx;
+}
+
+.taille,
+.size {
+  width: 220px;
+}
+
+@media (max-width: 1170px) {
+  .sizes,
+  .tailles {
+    padding: 0px 10px 0px 0px;
+  }
+}
+@media (max-width: 880px) {
+  .boite {
+    flex-direction: column;
+    border: 0px;
+    border-bottom: 1px solid #131313;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 10px 38px 10px;
+    margin: 0px 10px;
+  }
+  .boites {
+    display: none;
+  }
+
+  .taille {
+    height: 80px;
+  }
+
+  .tailles {
+    height: auto;
+    width: 100%;
+  }
+}

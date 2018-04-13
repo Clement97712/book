@@ -1,0 +1,87 @@
+* {
+  font-family: "Armata", sans-serif;
+  font-size: 18px; /*18*/
+  color: white;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.fond,
+.fond2,
+.fond3,
+.fond4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.fond2 {
+  background-image: url("../images/wesley_tingey.jpg");
+}
+
+.fond {
+  background-image: url("../images/james_barr.jpg");
+}
+
+.fond3 {
+  background-image: url("../images/book/roman_trifonov.jpg");
+}
+
+.fond4 {
+  background-image: url("../images/book/natalie_collins.jpg");
+}
+
+.phrase {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: auto;
+  width: 100%;
+  padding: 18px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+}
+@keyframes blink {
+  0% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.saving span {
+  animation-name: blink;
+
+  font-size: 3em;
+  border-radius: 12px;
+  font-weight: bold;
+  color: white;
+  animation-duration: 1.4s;
+
+  animation-iteration-count: infinite;
+
+  animation-fill-mode: both;
+}
+
+.saving span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.saving span:nth-child(3) {
+  animation-delay: 0.4s;
+}
