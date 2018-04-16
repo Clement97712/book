@@ -6,8 +6,6 @@
     include 'php/PDO.php';
     $list =new Connect();
     $sql ="SELECT title, description, id_book from book where id_user='".$_SESSION['id_user']."'";
-    /*$list->getAllElements($sql);
-    print_r($list->getAllElements($sql));*/
 ?>
 
 

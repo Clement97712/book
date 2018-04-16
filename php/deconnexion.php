@@ -20,7 +20,7 @@ session_destroy();
 
 
 <?php
-    header('refresh:10;url=../index.php');
+    header('refresh:6;url=../index.php');
     print("<h1>Deconnexion en cours</h1><p class='saving'>Veuillez patientez<span>.</span><span>.</span><span>.</span></p>");
 ?>
         </div>

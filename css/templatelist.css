@@ -1,47 +1,3 @@
-/*.contenus {
-  border: 1px solid;
-  height: 700px;
-  width: auto;
-  padding: 38px 0px;
-  overflow-y: auto;
-}
-
-.boites {
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 100px;
-  width: auto;
-}
-
-.taille,
-.tailles {
-  display: flex;
-  align-items: center;
-  height: 150px;
-  /*  border:1px solid;*/ /*
-}
-
-.size,
-.sizes {
-  height: 80px;
-  display: flex;
-  align-items: center;
-}
-
-.tailles,
-.sizes {
-  width: 500px;
-  overflow-y: auto;
-  text-align: left;
-}
-
-.taille,
-.size {
-  width: 220px;
-}
-*/
-
 * {
   font-family: "Armata", sans-serif;
   font-size: 18px;
@@ -68,7 +24,6 @@
   display: flex;
   align-items: center;
   height: 150px;
-  /*  border:1px solid;*/
 }
 
 .size,

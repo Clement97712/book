@@ -19,13 +19,11 @@
     $pwd=trim($_POST['pwd'],'');
     $pwdhash=crypt(md5($pwd));
 
-   // print($nom." ".$prenom." ".$login."".$email."".$pwd."</br>".$pwdhash);
+
 
     $connection = new Connect();
     $sql="SELECT * FROM user Where login='$login' OR passwordhash='$pwdhash' OR email='$email'";
     $sql2="INSERT INTO user (nom,prenom,login,email,password,passwordhash) VALUES ('$nom','$prenom','$login','$email','$pwd','$pwdhash');";
-
-   // print ("</br>".$sql);
     $connection->getVerification($sql,$sql2);
 
   ?>
