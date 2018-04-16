@@ -18,10 +18,10 @@
             <legend>Inscription</legend>
             <form method="POST" action="php/traitement.php">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Nom" required name="nom" pattern='[a-z]' minlength="5" title ="Que des lettres. Ex: hernandez" />
+                    <input type="text" class="form-control" placeholder="Nom" required name="nom" title ="Que des lettres. Ex: hernandez" />
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Prenom" required name="prenom"  pattern='[a-z]' minlength="3" title="Que des lettres et plus de 3 lettres. Ex:paul"/>
+                    <input type="text" class="form-control" placeholder="Prenom" required name="prenom"  title="Que des lettres et plus de 3 lettres. Ex:paul"/>
                 </div>
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Ex: example@gmail.com" required name="email" />
