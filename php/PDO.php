@@ -5,7 +5,7 @@
 
         function  __construct(){
           try{
-            $this->connect = new PDO("mysql:host=127.0.0.1;dbname=Book","root","");
+            $this->connect = new PDO("mysql:host=127.0.0.1;dbname=Log","root","Laurine_97112");
         }
         catch(PDOException $e){
         print("Erreur: ".$e->getMessage());
